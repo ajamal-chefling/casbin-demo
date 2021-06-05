@@ -1,0 +1,36 @@
+{
+  "name": "casbin-demo",
+  "version": "1.0.0",
+  "engines": {
+    "node": "14.17.0"
+  },
+  "description": "A simple express app with authorization mechanism",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajamal-chefling/casbin-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajamal-chefling/casbin-demo/issues"
+  },
+  "homepage": "https://github.com/ajamal-chefling/casbin-demo#readme",
+  "dependencies": {
+    "@awaitjs/express": "^0.7.2",
+    "casbin": "^5.7.1",
+    "casbin-mongoose-adapter": "^3.0.1",
+    "express": "^4.17.1",
+    "http-errors": "^1.7.2",
+    "loglevel": "^1.7.1",
+    "mongoose": "^5.12.13"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "type": "module"
+}
