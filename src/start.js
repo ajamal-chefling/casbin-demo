@@ -8,7 +8,7 @@ import { newEnforcer } from "casbin";
 import { MongooseAdapter } from "casbin-mongoose-adapter";
 
 const adapter = await MongooseAdapter.newAdapter(
-  "mongodb+srv://dbUser:B7sGMZCHxetKpNk4@personal-projects.rf3jq.mongodb.net",
+  "mongodb+srv://<user>:<password>@personal-projects.rf3jq.mongodb.net",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
